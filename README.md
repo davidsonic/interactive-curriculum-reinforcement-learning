@@ -1,7 +1,7 @@
 
 # Interactive Curriculum Reinforcement Learning
 
-Reinforcement learning is hard, particularly for tasks that receive sparse rewards or tasks that require a change of skills. Curriculum reinforcement learning partly mitigates the learning curve, by decomposing a hard task into easy ones.  A question that follows is how curriculum should be designed. We explore prior from human to build an interactive curriculum framework for reinforcement learning.
+Reinforcement learning is hard, particularly for tasks that receive sparse rewards or tasks that require a change of skills. Curriculum reinforcement learning partly mitigates the learning curve, by decomposing a hard task into easy ones.  A question that follows is how curriculum should be designed. We explore prior from human to build an interactive curriculum framework for reinforcement learning (Demo: tutorial-interact.mp4).
 
 ![png](imgs/envs.png)
 
@@ -38,6 +38,7 @@ Not required. Dependencies have been built into a binary executable (MAC). Downl
 ```
 	
 ### How to Run?
+Refer to tutorial-interact.mp4 for more information.
 1. `cd user-study-mac`
 2. Change executable permission: `chmod +x learn`
 3. `./learn`
@@ -50,9 +51,10 @@ Refer to instructions.pdf for more information.
 
 
 ### Other
-This project is built upon the popular Unity Game Engine, for demonstration purpose and is not for commercial use.
-In the released environment, we've restricted part of the functions and allow interactions to happen at fixed interval (every 10K global step). 
-Right now, there's a 30-day expiration period for the executable. 
+- This project is built upon the popular Unity Game Engine, for demonstration purpose and is not for commercial use. Right now, there's a 30-day expiration period for the executable.
+- In the released environment, we've restricted part of the functions and allow interactions to happen at fixed interval (every 10K global step). 
+- Parallel instances are hidden.
+ 
 
 
 ## Citation
