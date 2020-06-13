@@ -28,10 +28,10 @@ Not required. Dependencies have been built into a binary executable (MAC). Downl
 ```
 - LICENSE
 - Project
-	- Builds
-		- multi-jump-10000-restrict.app
+  - Builds
+    - multi-jump-10000-restrict.app
 - config
-	- train_config.yaml
+  - train_config.yaml
 - learn
 - models
 - summaries
